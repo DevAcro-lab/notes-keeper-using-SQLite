@@ -85,6 +85,7 @@ class _NoteDetailScreenState extends State<NoteDetailScreen> {
               SizedBox(
                 height: 150,
                 child: TextField(
+                  textAlignVertical: TextAlignVertical.top,
                   expands: true,
                   maxLines: null,
                   controller: _descriptionController,
